@@ -25,12 +25,12 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Screenshot
 
-![](.blob/main/images/screenshot.jpg)
+![](https://github.com/ravenloue/ProfileCardComponent/blob/main/images/screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub](https://github.com/ravenloue/ProfileCardComponent)
+- Live Site URL: [GitHub Pages](https://ravenloue.github.io/ProfileCardComponent/)
 
 ## My process
 
