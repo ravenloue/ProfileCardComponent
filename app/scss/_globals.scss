@@ -1,0 +1,57 @@
+html{
+    height: 100%;
+    margin: 0;
+    box-sizing: border-box;
+}
+*, *::before, *::after{
+    box-sizing:inherit;
+}
+
+body{
+    min-height: 100vh;
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $darkCyan;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+// Background Image Circles
+.top, .bottom{
+    position: fixed;
+}
+.top{
+    transform: translate(-80%, -55%);
+}
+.bottom{
+    bottom: 0;
+    right: 0;
+    transform: translate(30%, 55%);
+}
+
+footer{ // This keeps the Frontend Mentor credits at the bottom of the page
+    position: fixed;
+    bottom: 0;
+}
+
+// Mobile Browswer
+@media only screen and (max-width: 640px) and (min-width: 240px){
+    .top{
+        transform: translate(-35%, -55%);
+    }
+    .bottom{
+        transform: translate(70%, 55%);
+    }
+}
+// Tablet
+@media only screen and (max-width:1439px) and (min-width:641px){
+    .top{
+        transform: translate(-45%, -55%);
+    }
+    .bottom{
+        transform: translate(40%, 55%);
+    }    
+}
