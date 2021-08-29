@@ -45,10 +45,11 @@
             font-size: .825rem;
             color: $darkGreyBlue;
         }
-        .h2_alt{
+        p{
             font-weight: 400;
-            font-size: .6875rem;
+            font-size: .75rem;
             color: $darkGreyBlue;
+            margin: -.625rem;
         }
         
         .profinfo{
@@ -73,12 +74,9 @@
             margin-bottom: 1rem;
             padding: .5rem 0 1rem 0;
             border-top: .0625rem solid $borderGray;
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-            grid-template-rows: .825rem .75rem;
-            column-gap: 1rem;
-            row-gap: .75rem;
-            align-items: start;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
             justify-content: space-evenly;
         }
     }

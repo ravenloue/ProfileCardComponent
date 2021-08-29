@@ -115,10 +115,11 @@ footer {
   color: #6a6f81;
 }
 
-.container__text .h2_alt {
+.container__text p {
   font-weight: 400;
-  font-size: .6875rem;
+  font-size: .75rem;
   color: #6a6f81;
+  margin: -.625rem;
 }
 
 .container__text .profinfo {
@@ -147,12 +148,9 @@ footer {
   margin-bottom: 1rem;
   padding: .5rem 0 1rem 0;
   border-top: 0.0625rem solid rgba(150, 150, 150, 0.5);
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: .825rem .75rem;
-  column-gap: 1rem;
-  row-gap: .75rem;
-  align-items: start;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   justify-content: space-evenly;
 }
 
